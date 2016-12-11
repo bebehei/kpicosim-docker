@@ -21,6 +21,3 @@ RUN groupadd -g $USER_GID $USER_NAME \
 USER $USER_NAME
 ENV HOME /home/$USER_NAME
 CMD /usr/bin/kpicosim
-
-    #&& echo "$USER_NAME ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/user \
-    #&& chmod 0440 /etc/sudoers.d/user
