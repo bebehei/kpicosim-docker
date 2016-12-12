@@ -7,7 +7,6 @@ Probably it's better to klick here: [link](http://giphy.com/search/cute-kitten).
 And also, in the glamorous box of shiny details:
 
 - You have to run it on your local docker server!
-- Your user, who owns the wanted X11-display, has to have UID:GID 1000:1000, otherwise you have to build the image for yourself.
 - You have to use a script, because the docker-run command is too long.
 - Mac OS X <=12 not supported.
 - [Definitely works on Windows.](http://i.giphy.com/l0HlDmU3l3cMc2rCM.gif "Nope")
