@@ -22,4 +22,4 @@ Ok, let's stop this sarcasm and start:
 
 or, if you may want to adapt it, build it yourself:
 
-    docker -t bebehei/kpicosim:latest .
+    docker build -t bebehei/kpicosim:latest .
